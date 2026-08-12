@@ -1,4 +1,6 @@
-﻿namespace Module3
+﻿using System.Xml.Linq;
+
+namespace Module3
 {
     internal class Program
     {
@@ -10,50 +12,19 @@
             private bool isPoweredOn;    
 
 
-            public CeilingFan()
+            public CeilingFan(int speedLevel, string direction, bool isPoweredOn)
             {
-                speedLevel = 0;
-                direction = "Counterclockwise";
-                isPoweredOn = false;
+                this.speedLevel = 2;
+                this.direction = "Counterclockwise";
+                this.isPoweredOn = true;
             }
 
-            public void PowerOn()
-            {
-                isPoweredOn = true;
-                Console.WriteLine("Fan is now ON.");
-            }
-
-            public void PowerOff()
-            {
-                isPoweredOn = false;
-                speedLevel = 0;
-                Console.WriteLine("Fan is now OFF.");
-            }
-
-            public void SetSpeed(int level)
-            {
-                if (isPoweredOn && level >= 0 && level <= 3)
-                {
-                    speedLevel = level;
-                    Console.WriteLine($"Fan speed set to level {level}.");
-                }
-                else
-                {
-                    Console.WriteLine("Invalid speed or fan is off.");
-                }
-            }
-            public void ReverseDirection()
-            {
-                direction = (direction == "Clockwise") ? "Counterclockwise" : "Clockwise";
-                Console.WriteLine($"Fan direction changed to {direction}.");
-            }
+            public override string ToString() => $"Speed Level: {speedLevel}, Direction: {direction}, Powered On: {isPoweredOn}";
         }
         static void Main()
         {
-            CeilingFan fan = new CeilingFan();
-            Console.WriteLine("Ceiling Fan");
-            Console.WriteLine("");
-            Console.WriteLine("1. ");
+            CeilingFan myFan = new CeilingFan(2, "Counterclockwise", true);
+            Console.WriteLine(myFan.ToString());
             Console.ReadLine();
         }
     }
