@@ -13,6 +13,14 @@ namespace Module4
             MessageBox.Show(car2.ToString());
             MessageBox.Show(car3.ToString());
 
+            Employee emp1 = new Employee("Harry", 27, 100000);
+            Employee emp2 = new Employee("Steven", 30, 125000);
+            Employee emp3 = new Employee("Sally", 25, 95000);
+
+            MessageBox.Show(emp1.ToString());
+            MessageBox.Show(emp2.ToString());
+            MessageBox.Show(emp3.ToString());
+
         }
     }
     public class CeilingFan
