@@ -1,0 +1,16 @@
+H:\Module4\Module4\bin\Debug\net8.0-windows\Module4.exe
+H:\Module4\Module4\bin\Debug\net8.0-windows\Module4.deps.json
+H:\Module4\Module4\bin\Debug\net8.0-windows\Module4.runtimeconfig.json
+H:\Module4\Module4\bin\Debug\net8.0-windows\Module4.dll
+H:\Module4\Module4\bin\Debug\net8.0-windows\Module4.pdb
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.Form1.resources
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.csproj.GenerateResource.cache
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.GeneratedMSBuildEditorConfig.editorconfig
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.AssemblyInfoInputs.cache
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.AssemblyInfo.cs
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.csproj.CoreCompileInputs.cache
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.dll
+H:\Module4\Module4\obj\Debug\net8.0-windows\refint\Module4.dll
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.pdb
+H:\Module4\Module4\obj\Debug\net8.0-windows\Module4.genruntimeconfig.cache
+H:\Module4\Module4\obj\Debug\net8.0-windows\ref\Module4.dll
