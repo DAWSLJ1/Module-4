@@ -21,6 +21,40 @@ namespace Module3
 
             public override string ToString() => $"Speed Level: {speedLevel}, Direction: {direction}, Powered On: {isPoweredOn}";
         }
+        public class Car
+        {
+
+            private int year;
+            private string make;
+            private string model;
+
+
+            public string Make
+            {
+                get { return make}
+                set { make = value }
+
+            }
+            public string Model
+            {
+                get { return model}
+                set { model = value }
+            }
+            public int Year
+            {
+                get { return year}
+                set { year = value }
+            }
+
+            public Car(int speedLevel, string direction, bool isPoweredOn)
+            {
+                this.make = "";
+                this.model = "";
+                this.year = 1;
+            }
+
+            public override string ToString() => $"Make: {make}, Model: {model}, Year: {year}";
+        }
         static void Main()
         {
             CeilingFan myFan = new CeilingFan(2, "Counterclockwise", true);
