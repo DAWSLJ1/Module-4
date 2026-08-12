@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Module4\\Module4\\Module4.csproj",
+      "projectUniqueName": "C:\\Users\\DAWSLJ1\\Desktop\\Module-4\\Form\\Module4.csproj",
       "projectName": "Module4",
-      "projectPath": "H:\\Module4\\Module4\\Module4.csproj",
+      "projectPath": "C:\\Users\\DAWSLJ1\\Desktop\\Module-4\\Form\\Module4.csproj",
       "packagesPath": "C:\\Users\\DAWSLJ1\\.nuget\\packages\\",
-      "outputPath": "H:\\Module4\\Module4\\obj\\",
+      "outputPath": "C:\\Users\\DAWSLJ1\\Desktop\\Module-4\\Form\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
